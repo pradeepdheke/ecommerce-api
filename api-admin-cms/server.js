@@ -14,7 +14,8 @@ app.use(helmet())
 app.use(morgan('dev'))
 
 // mongodb connect
-
+import {dbConnect} from './src/config/dbConfig.js'
+dbConnect()
 
 // routers
 
