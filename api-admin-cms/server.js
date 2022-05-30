@@ -18,6 +18,8 @@ import {dbConnect} from './src/config/dbConfig.js'
 dbConnect()
 
 // routers
+import adminRouter from './src/routers/adminRouter.js'
+app.use('/api/v1/admin', adminRouter)
 
 app.get("/", (req, res) => {
     res.json({
