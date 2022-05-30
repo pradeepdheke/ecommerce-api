@@ -5,7 +5,7 @@ const AdminSchema = new mongoose.Schema({
         type: String,
         default: "inactive"
     },
-    
+
     fname : {
         type: String,
         required: true,
@@ -35,7 +35,7 @@ const AdminSchema = new mongoose.Schema({
         required: true,
         trim: true,
         maxLength: [15, "Phone must be less than 15 characters"],
-        minLength: [15, "Phone must be at least 10 characters"],
+        minLength: [10, "Phone must be at least 10 characters"],
     },
     password: {
         type: String,

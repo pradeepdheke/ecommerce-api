@@ -16,7 +16,7 @@ Content-Type: application/json
     "fname": "admin",
     "lname": "admin",
     "email": "asff@gmail.com",
-    "phone": "1234567890",
+    "phone": "12345678900",
     "address": "sydney",
     "dob": "1998-12-03",
     "password": "admin"
