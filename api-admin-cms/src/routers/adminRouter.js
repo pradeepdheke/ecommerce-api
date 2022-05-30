@@ -1,5 +1,5 @@
 import express from 'express'
-import newAdminValidation from '../middlewares/joi-validation/adminValidation.js'
+import {newAdminValidation} from '../middlewares/joi-validation/adminValidation.js'
 const router = express.Router()
 
 router.get("/", (req, res) => {

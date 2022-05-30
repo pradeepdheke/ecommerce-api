@@ -30,4 +30,3 @@ export const newAdminValidation = (req, res, next) => {
 
 }
 
-export default newAdminValidation;
